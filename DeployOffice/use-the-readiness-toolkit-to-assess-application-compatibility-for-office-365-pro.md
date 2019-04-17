@@ -314,7 +314,7 @@ Instead of creating an Excel file, a Power BI report, with the same information,
 If you're using the command line version of the Readiness Report Creator, type ReadinessReportCreator.exe -help to see the appropriate commands for using a SQL Server database. For example, you can use the following command to create a report from previous readiness results for the Finance department, using a local SQL database named Readiness, and using SQL Server authentication, instead of Windows authentication.
 
 ```
-ReadinessReportCreator.exe -sqlimport “C:\Reports\Finance” -server localhost/SQLEXPRESS -database Readiness -username Officeadmin -password seCRet123$%^
+ReadinessReportCreator.exe -sqlimport "C:\Reports\Finance" -server localhost/SQLEXPRESS -database Readiness -username Officeadmin -password seCRet123$%^
 ```
 
 
